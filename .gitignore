@@ -1,0 +1,22 @@
+# Simulation outputs and temporary files
+xsim.dir/
+*.vcd
+*.wdb
+*.log
+*.jou
+*.pb
+*.backup.log
+*.backup.jou
+
+# Vivado synthesis temporary directories
+.Xil/
+hd_visual/
+*.str
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
